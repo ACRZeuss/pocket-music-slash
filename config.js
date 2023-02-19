@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 module.exports = {
   app: {
     global: true,
-    guild: "826867748763074620",
+    guild: process.env.GUILD,
   },
 
   opt: {

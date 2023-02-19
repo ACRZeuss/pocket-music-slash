@@ -3,7 +3,7 @@
     "main": "main.js",
     "author": "ACRZeuss",
     "version": "1.0.0",
-    "repository": "https://github.com/ACRZeuss/pocket-music-new.git",
+    "repository": "https://github.com/ACRZeuss/pocket-music-slash.git",
     "description": "",
     "scripts": {
         "start": "node main.js"
