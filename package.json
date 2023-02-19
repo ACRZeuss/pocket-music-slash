@@ -1,0 +1,20 @@
+{
+    "name": "pocket-music",
+    "main": "main.js",
+    "author": "ACRZeuss",
+    "version": "1.0.0",
+    "repository": "https://github.com/ACRZeuss/pocket-music-new.git",
+    "description": "",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "discord-player": "^5.3.1",
+        "discord.js": "^14.1.2",
+        "dotenv": "^16.0.3",
+        "ffmpeg-static": "^5.0.2",
+        "http": "^0.0.1-security",
+        "ms": "^3.0.0-canary.1",
+        "opusscript": "^0.0.8"
+    }
+}
