@@ -9,8 +9,8 @@
         "start": "node main.js"
     },
     "dependencies": {
-        "discord-player": "^5.3.1",
-        "discord.js": "^14.1.2",
+        "discord-player": "^5.3.2",
+        "discord.js": "^14.7.1",
         "dotenv": "^16.0.3",
         "ffmpeg-static": "^5.0.2",
         "http": "^0.0.1-security",

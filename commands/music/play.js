@@ -46,11 +46,16 @@ module.exports = {
     }
 
     await inter.editReply({
-      content: `İstediğin ${res.playlist ? "Çalma Listesini" : "Şarkıyı"} Açıyorum... 🎧`,
+      content: `İstediğin ${
+        res.playlist ? "Çalma Listesini" : "Şarkıyı"
+      } Açıyorum... 🎧`,
     });
 
     res.playlist ? queue.addTracks(res.tracks) : queue.addTrack(res.tracks[0]);
 
-    if (!queue.playing) await queue.play();
+    if (!queue.playing) {
+      await queue.play();
+      queue.playing = true;
+    }
   },
 };
